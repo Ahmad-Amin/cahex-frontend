@@ -20,7 +20,7 @@ export default function Success() {
                 </div>
             </div>
         </div>
-        <h2 className="text-2xl font-semibold mt-5">Your submission has been approved</h2>
+        <h2 className="text-2xl font-semibold mt-5 text-center">Your submission has been approved</h2>
         </div>
 
         

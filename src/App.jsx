@@ -27,12 +27,12 @@ export default function App() {
           <Route path="/admin/fraud-detection" element={<FraudDetection/>} />
           <Route path="/admin/settings" element={<Settings/>} />
 
-          <Route path="/merchant-signin" element={<MerchantSignin/>} /> 
-          <Route path="/merchant-signup" element={<MerchantSignup/>} />
-          <Route path="/merchant-signup/personal-info" element={<PersonalInfo/>} />  
-          <Route path="/merchant-signup/credit-info" element={<CreditCard/>} />
-          <Route path="/merchant-signup/address-info" element={<AddressInfo/>} />
-          <Route path="/merchant-signup/kyc-success" element={<Success/>} />  
+          <Route path="/merchant/signin" element={<MerchantSignin/>} /> 
+          <Route path="/merchant/signup" element={<MerchantSignup/>} />
+          <Route path="/merchant/signup/personal-info" element={<PersonalInfo/>} />  
+          <Route path="/merchant/signup/credit-info" element={<CreditCard/>} />
+          <Route path="/merchant/signup/address-info" element={<AddressInfo/>} />
+          <Route path="/merchant/signup/kyc-success" element={<Success/>} />  
         </Routes>
     </Router>
   );

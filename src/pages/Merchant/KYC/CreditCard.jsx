@@ -11,7 +11,7 @@ export default function CreditCard() {
           <h1 className="font-extrabold text-[#2a3e5f]">CAHEX</h1>
           <h2 className="text-black text-sm">Step 2 of 3</h2>
         </div>
-        <h2 className="text-2xl font-semibold mt-5">Credit/Debit Info</h2>
+        <h2 className="text-4xl font-semibold mt-5">Credit/Debit Info</h2>
         <p className="text-gray-600 mb-4">Provide your bank information</p>
 
         <div className="mb-4">
@@ -58,7 +58,7 @@ export default function CreditCard() {
 
         <button
           className="w-full bg-[#2a3e5f] text-white py-2 rounded-md hover:bg-[#131c2c]"
-          onClick={() => navigate("/merchant-signup/address-info")}
+          onClick={() => navigate("/merchant/signup/address-info")}
         >
           Proceed
         </button>

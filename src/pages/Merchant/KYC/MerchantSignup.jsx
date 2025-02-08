@@ -9,7 +9,7 @@ export default function MerchantSignup() {
     <div className="flex items-center justify-center min-h-screen bg-[#2a3e5f] font-jakarta">
       <div className="bg-white p-8 rounded-2xl shadow-lg w-2/6">
         <h1 className="font-extrabold text-[#2a3e5f]">CAHEX</h1>
-        <h2 className="text-2xl font-semibold mt-5 text-center">
+        <h2 className="text-4xl font-semibold mt-5 text-center">
           Details to provide
         </h2>
         <p className="text-gray-600 mb-4 text-center">
@@ -70,7 +70,7 @@ export default function MerchantSignup() {
           </div>
         </div>
 
-        <button className="w-full bg-[#2a3e5f] text-white py-2 rounded-md hover:bg-[#131c2c]" onClick={() => navigate("/merchant-signup/personal-info")}>
+        <button className="w-full bg-[#2a3e5f] text-white py-2 rounded-md hover:bg-[#131c2c]" onClick={() => navigate("/merchant/signup/personal-info")}>
           Accept & Proceed
         </button>
 
@@ -78,7 +78,7 @@ export default function MerchantSignup() {
           Already have an account?{" "}
           <button
             className="text-[#2a3e5f] font-semibold"
-            onClick={() => navigate("/merchant-signin")}
+            onClick={() => navigate("/merchant/signin")}
           >
             Sign In
           </button>
