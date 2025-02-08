@@ -17,7 +17,7 @@ const AccountSecurity = () => {
             type="checkbox"
             className="sr-only"
             checked={isTwoFactorEnabled}
-            onChange={toggleTwoFactor} // Toggle on change
+            onChange={toggleTwoFactor}
           />
           <div
             className={`w-11 h-6 rounded-full ${

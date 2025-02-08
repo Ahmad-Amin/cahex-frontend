@@ -9,12 +9,12 @@ import { IoMdLogOut } from "react-icons/io";
 
 const Sidebar = ({children}) => {
   const menuItems = [
-    { name: "Dashboard", path: "/dashboard", icon: <BiTachometer size={25}/> },
-    { name: "Merchants", path: "/merchants", icon: <MdOutlineWindow size={25}/> },
-    { name: "Transactions", path: "/transactions", icon: <BsCash size={25}/> },
-    { name: "API & SDK Integration", path: "/api-sdk", icon: <SiGoogleanalytics size={20}/> },
-    { name: "Fraud Detection", path: "/fraud-detection", icon: <GoPerson size={25}/> },
-    { name: "Settings", path: "/settings", icon:    <IoMdSettings size={25}/> },
+    { name: "Dashboard", path: "/admin/dashboard", icon: <BiTachometer size={25}/> },
+    { name: "Merchants", path: "/admin/merchants", icon: <MdOutlineWindow size={25}/> },
+    { name: "Transactions", path: "/admin/transactions", icon: <BsCash size={25}/> },
+    { name: "API & SDK Integration", path: "/admin/api-sdk", icon: <SiGoogleanalytics size={20}/> },
+    { name: "Fraud Detection", path: "/admin/fraud-detection", icon: <GoPerson size={25}/> },
+    { name: "Settings", path: "/admin/settings", icon:    <IoMdSettings size={25}/> },
     { name: "Logout", path: "/logout", icon: <IoMdLogOut size={25}/> },
   ];
 
