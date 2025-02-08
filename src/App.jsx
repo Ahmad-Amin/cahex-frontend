@@ -7,6 +7,12 @@ import ApiSdk from "./pages/Admin/ApiSdk";
 import FraudDetection from "./pages/Admin/FraudDetection";
 import Settings from "./pages/Admin/Settings";
 import LoginForm from "./pages/Admin/LoginForm";
+import MerchantSignin from "./pages/Merchant/KYC/MerchantSignin";
+import MerchantSignup from "./pages/Merchant/KYC/MerchantSignup";
+import PersonalInfo from "./pages/Merchant/KYC/PersonalInfo";
+import CreditCard from "./pages/Merchant/KYC/CreditCard";
+import AddressInfo from "./pages/Merchant/KYC/AddressInfo";
+import Success from "./pages/Merchant/KYC/Success";
 
 export default function App() {
   return (
@@ -19,7 +25,14 @@ export default function App() {
           <Route path="/admin/transactions" element={<TransactionHistory/>} />
           <Route path="/admin/api-sdk" element={<ApiSdk/>} />  
           <Route path="/admin/fraud-detection" element={<FraudDetection/>} />
-          <Route path="/admin/settings" element={<Settings/>} />  
+          <Route path="/admin/settings" element={<Settings/>} />
+
+          <Route path="/merchant-signin" element={<MerchantSignin/>} /> 
+          <Route path="/merchant-signup" element={<MerchantSignup/>} />
+          <Route path="/merchant-signup/personal-info" element={<PersonalInfo/>} />  
+          <Route path="/merchant-signup/credit-info" element={<CreditCard/>} />
+          <Route path="/merchant-signup/address-info" element={<AddressInfo/>} />
+          <Route path="/merchant-signup/kyc-success" element={<Success/>} />  
         </Routes>
     </Router>
   );
