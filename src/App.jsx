@@ -5,6 +5,7 @@ import Merchant from "./pages/Admin/Merchant";
 import TransactionHistory from "./pages/Admin/TransactionHistory";
 import ApiSdk from "./pages/Admin/ApiSdk";
 import FraudDetection from "./pages/Admin/FraudDetection";
+import Settings from "./pages/Admin/Settings";
 
 export default function App() {
   return (
@@ -15,7 +16,8 @@ export default function App() {
           <Route path="/merchants" element={<Merchant/>} />  
           <Route path="/transactions" element={<TransactionHistory/>} />
           <Route path="/api-sdk" element={<ApiSdk/>} />  
-          <Route path="/fraud-detection" element={<FraudDetection/>} />  
+          <Route path="/fraud-detection" element={<FraudDetection/>} />
+          <Route path="/settings" element={<Settings/>} />  
         </Routes>
     </Router>
   );

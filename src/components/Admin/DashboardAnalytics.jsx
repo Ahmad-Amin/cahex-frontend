@@ -46,7 +46,7 @@ const DashboardAnalytics = () => {
   ];
 
   return (
-    <div className="flex gap-4 p-6 bg-gray-100">
+    <div className="flex gap-4 py-6 bg-gray-100">
       {stats.map((stat, index) => (
         <StatCard key={index} stat={stat} />
       ))}
