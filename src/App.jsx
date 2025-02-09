@@ -13,6 +13,12 @@ import PersonalInfo from "./pages/Merchant/KYC/PersonalInfo";
 import CreditCard from "./pages/Merchant/KYC/CreditCard";
 import AddressInfo from "./pages/Merchant/KYC/AddressInfo";
 import Success from "./pages/Merchant/KYC/Success";
+import MerchantDashboard from "./pages/Merchant/MerchantDashboard";
+import MerchantSettings from "./pages/Merchant/MerchantSettings";
+import MerchantUsers from "./pages/Merchant/MerchantUsers";
+import MerchantWallet from "./pages/Merchant/MerchantWallet";
+import MerchantTransaction from "./pages/Merchant/MerchantTransaction";
+import MerchantApi from "./pages/Merchant/MerchantApi";
 
 export default function App() {
   return (
@@ -32,7 +38,14 @@ export default function App() {
           <Route path="/merchant/signup/personal-info" element={<PersonalInfo/>} />  
           <Route path="/merchant/signup/credit-info" element={<CreditCard/>} />
           <Route path="/merchant/signup/address-info" element={<AddressInfo/>} />
-          <Route path="/merchant/signup/kyc-success" element={<Success/>} />  
+          <Route path="/merchant/signup/kyc-success" element={<Success/>} />
+
+          <Route path="/merchant/dashboard" element={<MerchantDashboard/>} />
+          <Route path="/merchant/settings" element={<MerchantSettings/>} />
+          <Route path="/merchant/users" element={<MerchantUsers/>} />
+          <Route path="/merchant/wallet" element={<MerchantWallet/>} />
+          <Route path="/merchant/transaction" element={<MerchantTransaction/>} />
+          <Route path="/merchant/api-connection" element={<MerchantApi/>} />  
         </Routes>
     </Router>
   );
