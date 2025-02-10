@@ -157,7 +157,6 @@ export default function MerchantApi() {
         <Sidebar>
           <h1 className="font-impact text-4xl">API Connection</h1>
           <div className="p-6">
-            <h2 className="text-2xl font-bold">API Connection</h2>
             <TableWithPagination
               data={apiConnections}
               headers={["Name", "Key", "Platform", "Status", "Created"]}
