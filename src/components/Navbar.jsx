@@ -12,9 +12,9 @@ export default function Navbar() {
 
         </div>
       <div className="flex rounded-full gap-1 z-10">
-        <button className="w-24 py-2 bg-[#313d4f] text-white rounded-full font-manrope text-sm">API</button>
-        <button className="w-24 py-2 bg-[#313d4f] text-white rounded-full font-manrope text-sm">Use Case</button>
-        <button className="w-24 py-2 bg-[#313d4f] text-white rounded-full font-manrope text-sm">About Us</button>
+        <button className="w-24 py-2 bg-[#313d4f] text-white rounded-full font-manrope text-sm hover:bg-[#485a75] ease-in-out transition duration-300">API</button>
+        <button className="w-24 py-2 bg-[#313d4f] text-white rounded-full font-manrope text-sm hover:bg-[#485a75] ease-in-out transition duration-300">Use Case</button>
+        <button className="w-24 py-2 bg-[#313d4f] text-white rounded-full font-manrope text-sm hover:bg-[#485a75] ease-in-out transition duration-300">About Us</button>
       </div>
       </div>
 

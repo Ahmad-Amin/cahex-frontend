@@ -24,7 +24,7 @@ const GetStarted = () => {
         <div className="flex flex-row w-full items-center">
         <h2 className="font-manrope font-extrabold font-lg flex-1">Email Address</h2>
         <button
-          className="px-6 py-2 bg-[#313d4f] text-white rounded-full font-jakarta hover:bg-[#485a75]"
+          className="px-6 py-2 bg-[#313d4f] text-white rounded-full font-jakarta hover:bg-[#485a75] ease-in-out transition duration-300"
         >
           Subscribe
         </button>
