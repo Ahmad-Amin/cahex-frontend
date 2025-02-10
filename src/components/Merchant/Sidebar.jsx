@@ -15,7 +15,7 @@ const Sidebar = ({children}) => {
     { name: "Transaction", path: "/merchant/transaction", icon: <GrTransaction size={25}/> },
     { name: "API Connection", path: "/merchant/api-connection", icon: <MdApi size={25}/> },
     { name: "Settings", path: "/merchant/settings", icon:    <IoMdSettings size={25}/> },
-    { name: "Logout", path: "/logout", icon: <IoMdLogOut size={25}/> },
+    { name: "Logout", path: "/", icon: <IoMdLogOut size={25}/> },
   ];
 
   return (

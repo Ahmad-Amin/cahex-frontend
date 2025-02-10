@@ -15,7 +15,7 @@ const Sidebar = ({children}) => {
     { name: "API & SDK Integration", path: "/admin/api-sdk", icon: <SiGoogleanalytics size={20}/> },
     { name: "Fraud Detection", path: "/admin/fraud-detection", icon: <GoPerson size={25}/> },
     { name: "Settings", path: "/admin/settings", icon:    <IoMdSettings size={25}/> },
-    { name: "Logout", path: "/logout", icon: <IoMdLogOut size={25}/> },
+    { name: "Logout", path: "/", icon: <IoMdLogOut size={25}/> },
   ];
 
   return (
