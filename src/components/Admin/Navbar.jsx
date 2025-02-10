@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div className="w-full bg-white flex flex-row h-16 fixed gap-20 z-10">
       <div className="w-1/6 text-[#202224] p-4 font-impact flex items-center justify-center">
-        <h1 className="text-3xl">CAHEX</h1>
+        <h1 className="text-4xl">CAHEX</h1>
       </div>
       <div className="w-4/12 flex items-center">
         <div class="w-full mx-auto">

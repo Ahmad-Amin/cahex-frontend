@@ -3,7 +3,7 @@ import React from "react";
 const Product = () => {
   return (
     <div className="w-full">
-      <div className="relative w-full bg-[#f5f6fa] rounded-xl border-2 border-[#4c4c4c] flex flex-col overflow-hidden border-t-0 items-center">
+      <div className="relative w-full h-full bg-[#f5f6fa] rounded-xl border-2 border-[#4c4c4c] flex flex-col overflow-hidden border-t-0 items-center">
         <div className="w-full h-16 relative bg-[#313d4f]">
           <div className="absolute w-48 h-12 bg-[#f5f6fa] rounded-b-xl top-0 left-1/2 transform -translate-x-1/2"></div>
         </div>
@@ -122,7 +122,7 @@ const Product = () => {
         </div>
         <img src="Images/shap4.png" alt="" className="absolute top-0 left-0 w-40" />
         <img src="Images/shap5.png" alt="" className="absolute top-0 right-0 w-32" />
-        <img src="Images/shap6.png" alt="" className="absolute top-1/4" />
+        <img src="Images/shap6.png" alt="" className="absolute lg:top-40 top-44 w-full" />
       </div>
     </div>
   );

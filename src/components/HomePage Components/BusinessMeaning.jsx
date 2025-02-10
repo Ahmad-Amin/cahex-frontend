@@ -18,7 +18,10 @@ const BusinessMeaning = () => {
           transferring money and accepting payments using the power of Cahex
           Network. But first things first…
         </p>
+        <div className="flex items-center justify-center">
         <img src="Images/shap2.png" alt="" />
+        <img src="/Images/isometric c letter.png" alt="" className="absolute" />
+        </div>
         <img
           src="Images/shap3.png"
           alt=""
