@@ -30,7 +30,7 @@ const HomePage = () => {
           </div>
           <div className="flex w-1/2 ">
             <img
-              src="Images/image-removebg-preview - 2025-01-22T135958.935 1.png"
+              src="/Images/image-removebg-preview - 2025-01-22T135958.935 1.png"
               alt=""
             />
           </div>

@@ -19,16 +19,16 @@ const BusinessMeaning = () => {
           Network. But first things first…
         </p>
         <div className="flex items-center justify-center">
-        <img src="Images/shap2.png" alt="" />
+        <img src="/Images/shap2.png" alt="" />
         <img src="/Images/isometric c letter.png" alt="" className="absolute" />
         </div>
         <img
-          src="Images/shap3.png"
+          src="/Images/shap3.png"
           alt=""
           className="absolute bottom-32 right-0 w-32"
         />
         <img
-          src="Images/shap3.png"
+          src="/Images/shap3.png"
           alt=""
           className="absolute top-20 left-0 w-32"
         />

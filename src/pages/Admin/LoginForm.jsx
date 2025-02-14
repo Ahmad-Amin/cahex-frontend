@@ -15,7 +15,7 @@ const LoginForm = () => {
   return (
     <div className="flex justify-center items-center h-screen bg-[#3A4358] font-jakarta relative">
       <img
-        src="Images/Shape (1).png"
+        src="/Images/Shape (1).png"
         alt=""
         className="w-screen h-screen absolute"
       />

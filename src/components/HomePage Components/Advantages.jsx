@@ -42,7 +42,7 @@ const Advantages = () => {
             </div>
           </div>
         </div>
-        <img src="Images/shap5.png" alt="" className='absolute left-0 top-1/4 w-40' />
+        <img src="/Images/shap5.png" alt="" className='absolute left-0 top-1/4 w-40' />
       </div>
     </div>
   );

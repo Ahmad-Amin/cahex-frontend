@@ -5,7 +5,7 @@ const AssetAgnosticism = () => {
     <div className="relative bg-[#313d4f]  rounded-xl overflow-hidden pt-10 pb-44">
       {/* Original Background Image */}
       <img
-        src="Images/6733647cd63c2616b1e0a5c1_product-lines-nolines.svg.png"
+        src="/Images/6733647cd63c2616b1e0a5c1_product-lines-nolines.svg.png"
         alt="Background"
         className="w-full h-full object-cover"
       />
@@ -68,17 +68,17 @@ const AssetAgnosticism = () => {
         </div>
       </div>
       <img
-        src="Images/shape.png"
+        src="/Images/shape.png"
         alt="Decor 1"
         className="absolute bottom-10 right-10 w-20 h-20"
       />
       <img
-        src="Images/66179f39a6c8261869098f79_decor-344-299.svg.png"
+        src="/Images/66179f39a6c8261869098f79_decor-344-299.svg.png"
         alt="Decor 2"
         className="absolute top-32 left-0 w-32 h-auto"
       />
       <img
-        src="Images/66179f39a6c8261869098f79_decor-344-299.svg.png"
+        src="/Images/66179f39a6c8261869098f79_decor-344-299.svg.png"
         alt="Decor 2"
         className="absolute bottom-20 right-0 w-32 h-auto"
       />

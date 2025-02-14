@@ -117,12 +117,12 @@ const Product = () => {
             <h1 className="font-impact text-xl">Universal Payment Rail</h1>
             <p className="font-manrope">To understand how TRON payment works, set up a TRON wallet and integrate the wallet for your TRC-20 token(s) and the Cahex SDK into your
             existing app to make or receive payments with USDT.</p>
-            <img src="Images/image001.png" alt="" />
+            <img src="/Images/image001.png" alt="" />
           </div>
         </div>
-        <img src="Images/shap4.png" alt="" className="absolute top-0 left-0 w-40" />
-        <img src="Images/shap5.png" alt="" className="absolute top-0 right-0 w-32" />
-        <img src="Images/shap6.png" alt="" className="absolute lg:top-40 top-44 w-full" />
+        <img src="/Images/shap4.png" alt="" className="absolute top-0 left-0 w-40" />
+        <img src="/Images/shap5.png" alt="" className="absolute top-0 right-0 w-32" />
+        <img src="/Images/shap6.png" alt="" className="absolute lg:top-40 top-44 w-full" />
       </div>
     </div>
   );
