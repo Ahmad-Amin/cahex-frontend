@@ -82,7 +82,7 @@ const MyFunds = () => {
       fetchBalance();
     }, 30000); 
     return () => clearInterval(interval);
-  }, []);
+  },);
 
   return (
     <div className="flex flex-row w-full bg-white shadow-md rounded-xl gap-5 p-6">
